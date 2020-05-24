@@ -1,0 +1,148 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Cabeza {
+    width: auto;    
+    margin: auto;
+    font-family: 'Chelsea Market', cursive;
+}
+
+    .Cabeza div img {
+        margin: 0px;
+        float: left;
+        height: 80px;
+        width: 80px;
+        
+
+    }
+
+    .Cabeza nav {
+        padding: 0px 10px ;
+        background-color: #08bf85;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+
+    .Cabeza div h1 {
+        /* margin: 7px 0px 0px 20px; */
+        font-size: 70px;
+        background-color: rgb(250, 244, 233);
+    }
+    .Cabeza ul {
+        overflow: hidden;
+        list-style-type: none;
+        padding-left: 100px;
+        margin: 0;
+    }
+
+        .Cabeza li {
+            float: left;
+        }
+
+    .Cabeza a {
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+        background-color: #08bf85;
+    }
+
+    .Cabeza a:hover {
+        background-color: #057450;
+    } 
+
+.productos {
+    font-family: 'Fira Sans', sans-serif;
+    width: 30%;   
+}
+    
+
+    .productos img{ 
+        padding: 5px;       
+        margin: 5px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .productos p {
+        margin: 8px;
+    }
+
+    .productos p strong {
+        text-align: left;
+        font-weight: 8750;
+        font-size: 19px;
+    }
+
+    .productos p em {
+        font-size: 22px;
+        font-weight: 900;
+        color: rgb(7, 22, 90);
+    }
+
+.flex {
+    display: flex;
+} 
+
+.columna {
+    background-color: rgb(250, 244, 233);
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 12px;
+    padding: 10px;
+}
+
+.titulo {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.precio {
+    margin: 5px;
+    display: inline;
+    color: #048d76;
+    font-size: 20px;
+    font-weight: 300;    
+}
+
+.boton-comprar {
+    max-width: 1000px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    background-color: salmon;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 10px;     
+}
+
+.boton-comprar:hover {
+    background-color: rgb(163, 84, 75);
+}
+
+    .foot {
+        max-width: auto;
+        display: flex;
+        background-color: #292829;
+        margin: auto;
+        font-family: 'Chelsea Market', cursive;
+    }
+
+    .foot p {
+        margin: 30px 100px;
+        padding: 10px;
+        color: white;
+    }
+    
+    .foot img {
+        height: 150px;
+        width: 150px;
+        margin: 1px solid white;
+    } 
+
+    
